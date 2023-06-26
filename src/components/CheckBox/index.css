@@ -1,0 +1,19 @@
+.input-checkbox{
+  flex-shrink: 0;
+
+  height: 30px;
+  width: 30px;
+
+  accent-color:var(--primary-color) ;
+  border-radius: 5px;
+
+}
+
+@media screen and (max-width: 800px) {
+ 
+}
+@media screen and (max-width: 530px) {
+  .input-checkbox{
+    height: 20px;
+  }
+}

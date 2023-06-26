@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --primary-color: #56f4ff;
+  --secondary-color: #fc6666;
+  --third-color: #98f79b
+}
+
+html {
+  color: #ffff;
+  background-color: #020720;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+  html{
+    margin: 0 20px;
+  }
+ 
+}
+@media screen and (max-width: 530px) {
+  html{
+    margin: 0 10px;
+  }
+}
+
+
+

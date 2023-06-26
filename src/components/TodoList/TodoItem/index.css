@@ -1,0 +1,45 @@
+
+.todo-item{
+  display: flex;
+  gap: 20px;
+
+
+  padding: 0 30px;
+
+  align-items: center;
+}
+.text-job{
+  flex-grow: 1;
+  font-size: 30px;
+
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.text-job.is-done{
+  text-decoration: line-through;
+}
+.form-edit{
+  display: flex;
+  gap: 10px;
+  width: 100%;
+
+}
+li{
+  border: #9b9999 solid 1px;
+  border-radius: 5px;
+  background-color: #020720;
+
+  cursor: move;
+}
+
+@media screen and (max-width: 800px) {
+  .text-job{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 530px) {
+  .text-job{
+    font-size: 15px;
+  }
+}

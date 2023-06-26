@@ -1,0 +1,35 @@
+.input-text {
+  padding: 12px 15px;
+  height: 56px;
+  width: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+
+  background-color: #000000;
+  color: #ffff;
+  border: var(--primary-color) solid 1px;
+  border-radius: 5px;
+
+  box-shadow: 0 0 10px var(--primary-color);
+  font-size: 30px;
+}
+
+input::placeholder {
+  color: #ccc;
+
+  font-family: inherit;
+}
+
+
+@media screen and (max-width: 800px) {
+  .input-text {
+
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .input-text {
+    height: 40px;
+  }
+}
